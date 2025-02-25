@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from huggingface_hub import login
 
 # Login programmatically
-login("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")
+login("HUGGING_FACE_AUTH_TOKEN")
 
 # Load the model and tokenizer (using a single model for simplicity)
 model_name = "thrishala/mental_health_chatbot"
